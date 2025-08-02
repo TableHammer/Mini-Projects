@@ -2,7 +2,6 @@ body{
     background-color: black;
 }
 .wrapper{
-    margin: 0px 1px;
+    text-align: center;
     background-color: #868686;
-    width: auto;
 }
