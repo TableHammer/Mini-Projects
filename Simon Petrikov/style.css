@@ -1,0 +1,24 @@
+.grass-container {
+  width: 10px;
+  height: 100px;
+}
+
+.grass-path {
+  stroke: #7cb342;
+  stroke-width: 3;
+  fill: none;
+  stroke-linecap: round;
+  animation: bend 3s ease-in-out infinite alternate;
+}
+
+@keyframes bend {
+  0% {
+    d: path('M5 0 Q10 30 2 60 Q8 90 5 100');
+  }
+  50% {
+    d: path('M5 0 Q2 30 8 60 Q0 90 5 100');
+  }
+  100% {
+    d: path('M5 0 Q0 30 10 60 Q3 90 5 100');
+  }
+}
